@@ -1,0 +1,1 @@
+could make a new div for hero, split into left and right then make the header logo, text,subtext button left, links and images right
