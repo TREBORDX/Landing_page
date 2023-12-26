@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    text-align: center;
 }
 
 .hero {
@@ -10,19 +11,37 @@ body {
     flex-direction: row;
     background-color: #1f2937;
     justify-content: center;
+    color: #F9FAF8;
+    text-align: left;
 }
 
 .heroleft, .heroright {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-wrap: wrap;
+    flex-basis: 50%;
+    flex-shrink: 0;
+    
+}
+
+h4 {
+    align-items: center;
 }
 
 ul {
-    align-content: center;
+    display: flex;
+    align-items: flex-start;
 }
 
 li {
     display: inline;
     padding: 15px;
+}
+.bodyimage {
+    display: flex;
+    flex: 1;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
 }
