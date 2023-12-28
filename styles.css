@@ -18,11 +18,15 @@ body {
 .heroleft, .heroright {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-wrap: wrap;
-    flex-basis: 50%;
-    flex-shrink: 0;
     
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    text-wrap: wrap;
 }
 
 h4 {
