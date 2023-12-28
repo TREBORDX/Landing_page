@@ -3,6 +3,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    
+}
+.hero {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
 }
 ul, h4 {
     display: flex;
@@ -10,6 +16,12 @@ ul, h4 {
     margin: 0;
     padding: 0;
     gap: 15px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0%;
 }
 .hero, .footer {
     background-color: #1f2937;
@@ -19,16 +31,58 @@ ul, h4 {
 .herotop, .herobot {
     display: flex;
     justify-content: space-between;
-    padding: 15px 20% 15px 20%;
+    padding-top: 30px; 
+    padding-bottom: 30px;
 }
 
 .botleft, .botright {
     display: flex;
     flex-direction: column;
     flex: 1;
+    font-size: 18px;
+    color: #E5E7Eb;
 }
 
 .bodyimage {
     background-color: lightslategray;
     flex: 1;
+    text-align: center;
+}
+
+.botleft button, p {
+    align-self: flex-start;
+    margin: 0%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.Sectiontwo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+    gap: 15px;
+}
+.illustration {
+    height: 10vh;
+    border: 3px solid #3882F6;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
