@@ -1,3 +1,6 @@
 could make a new div for hero, split into left and right then make the header logo, text,subtext button left, links and images right
 
 the image placeholders could be divs with a different colour background
+
+
+create new div, split into top and bottom, on the bottom one we create a new flex box also aligned in row
