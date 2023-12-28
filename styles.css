@@ -27,3 +27,8 @@ ul, h4 {
     flex-direction: column;
     flex: 1;
 }
+
+.bodyimage {
+    background-color: lightslategray;
+    flex: 1;
+}
