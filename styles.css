@@ -51,14 +51,16 @@ h2 {
 
 .botleft button, p {
     align-self: flex-start;
-    margin: 0%;
+    margin-top: 0%;
 }
 
 button {
     background-color: #3882F6;
     color: #E5E7Eb;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 4px;
     font-size: 18px;
     font-weight: bolder;
@@ -75,14 +77,20 @@ button {
 }
 .cards {
     display: flex;
-    align-items: center;
+    text-align: center;
     font-size: 18px;
     font-weight: 100;
     gap: 15px;
+    
 }
 .illustration {
-    height: 10vh;
+    height: 15vh;
+    width: 15vh;
     border: 3px solid #3882F6;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.text {
+    margin-top: 10px;
 }
