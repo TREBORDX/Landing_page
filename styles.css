@@ -60,9 +60,17 @@ h2 {
 }
 
 .bodyimage {
+    display: flex;
     background-color: lightslategray;
     flex: 1;
     text-align: center;
+    justify-content: center;
+}
+
+.bodyimage p {
+    display: flex;
+    margin: 0%;
+    align-self: center;
 }
 
 .botleft button,
@@ -78,7 +86,7 @@ button {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 18px;
     font-weight: bolder;
 }
@@ -97,7 +105,7 @@ button {
     display: flex;
     text-align: center;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 100 lighter;
     gap: 15px;
 
 }
@@ -112,4 +120,70 @@ button {
 
 .text {
     margin-top: 10px;
+}
+
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.sectionthree p.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.sectionfour {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.secfourinnercontainer {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+    padding: 4%;
+}
+
+.secfourleft {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    color: #E5E7Eb;
+    justify-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.secfourleft p {
+    margin: 0%;
+}
+
+.secfourright {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.secfourright button {
+    border: 2px solid white;
+
 }
